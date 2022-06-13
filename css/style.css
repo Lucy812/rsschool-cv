@@ -19,6 +19,7 @@ body {
   align-items: center;
 	list-style: none;
 }
+
 .nav-link {
 	color: #4A4A4A;
 	text-decoration: none;
@@ -26,13 +27,13 @@ body {
 	padding: 0 10px;
   line-height: 50px;
 }
-.nav-link:hover{
+
+.nav-link:hover {
 	color: #8FC858;
 }
 
-.container{
+.container {
 	display: flex;
-	
 	max-width: 1024px;
 	margin: 0 auto;
 }
@@ -41,7 +42,6 @@ body {
 	display: block;
 	width: 250px;
 	margin: 0 auto;
-	/*border: 10px solid #7EB747;*/
 	border: 5px solid #8FC858;
 	border-radius: 25px;
 }
@@ -53,8 +53,6 @@ body {
 	padding: 30px 20px;
 	color: #4A4A4A;
 	background-color: #D1F9AB;
-	
-	
 }
 
 .link {
@@ -62,63 +60,55 @@ body {
 	text-decoration: none;
 	padding: 3px;
 }
+
 .link:hover {
 	color: #030303;
-	/*color: #BABABA;
-	color: #3A521E;*/
-	/*border: solid 1px #3A521E;*/
-	
 	border-radius: 3px;
 	background-color: #8FC858;
 }
-
-
 
 .summary {
 	display: inline-block;
 	width: 61%;
 	padding: 30px 20px;
 	color: #4A4A4A;
-	background-color: white;
-	
-	
+	background-color: #FFFFFF;
 }
+
 .section > ul > li {
 	list-style-type: circle;
 }
+
 .section-title {
 	font-size: 20px;
-	/*letter-spacing: 1px;*/
 	line-height: 1.5;
-	/*text-transform: uppercase;*/
 	border-bottom: 2px solid #7EB747;
 }
+
 pre {
 	background-color: #F0F0F0;
-	/*border: solid #B8B8B8 1px;*/
 	padding: 0 20px;
 }
+
 .code{
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
-	
 }
 
-.footer{
-
+.footer {
 	margin: 0 auto;
-	
 }
-.footer-content{
+
+.footer-content {
 	display: flex;
 	justify-content: center;
 	margin: 10px;
 	height: 100px;
 }
+
 .year {
 	font-size: 45px;
 	font-weight: bold;
-	
 	writing-mode: vertical-lr;
 }
